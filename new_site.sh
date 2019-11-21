@@ -31,7 +31,7 @@ if [ ! -d "$absolute_doc_root" ]; then
 indexfile="$absolute_doc_root/public_html/index.html"
 `touch "$indexfile"`
 `chown apache:apache "$indexfile"`
-echo "<html><head></head><body>Welcome to $site_url</body></html>" >> "$indexfil                                                                                        e"
+echo "<html><head></head><body>Welcome to $site_url</body></html>" >> "$indexfile"
 echo "Zaversheno sozdanie directorii saita"
 fi
 echo "<VirtualHost *:80>
